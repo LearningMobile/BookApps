@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B0B361AD-1BD3-4462-91B7-1103EB0DA17A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>My ContactList</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E61F5947-43F4-4B7E-A14D-4ED95BEB6BFC</key>
+		<string>https://github.com/jhiversen/My-ContactList-Post-Ch-10.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>My ContactList.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E61F5947-43F4-4B7E-A14D-4ED95BEB6BFC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jhiversen/My-ContactList-Post-Ch-10.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E61F5947-43F4-4B7E-A14D-4ED95BEB6BFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E61F5947-43F4-4B7E-A14D-4ED95BEB6BFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>My ContactList Post Ch 10</string>
+		</dict>
+	</array>
+</dict>
+</plist>

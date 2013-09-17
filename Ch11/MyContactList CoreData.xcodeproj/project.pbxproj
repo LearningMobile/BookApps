@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3671C67217DDF7C2007A316E /* LMASettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671C67117DDF7C2007A316E /* LMASettingsController.m */; };
+		367276C717DF48A300EF9743 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 367276C617DF48A300EF9743 /* Constants.m */; };
+		36E0221517DADFF20009BE71 /* LMADateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0221417DADFF20009BE71 /* LMADateController.m */; };
+		36F081BE17E016E5008C3388 /* LMAContactsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F081BD17E016E5008C3388 /* LMAContactsTableController.m */; };
+		36FBD07117D9821F00AA1D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07017D9821F00AA1D1B /* Foundation.framework */; };
+		36FBD07317D9821F00AA1D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07217D9821F00AA1D1B /* CoreGraphics.framework */; };
+		36FBD07517D9821F00AA1D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07417D9821F00AA1D1B /* UIKit.framework */; };
+		36FBD07717D9822000AA1D1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07617D9821F00AA1D1B /* CoreData.framework */; };
+		36FBD07D17D9822000AA1D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD07B17D9822000AA1D1B /* InfoPlist.strings */; };
+		36FBD07F17D9822000AA1D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD07E17D9822000AA1D1B /* main.m */; };
+		36FBD08317D9822000AA1D1B /* LMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD08217D9822000AA1D1B /* LMAAppDelegate.m */; };
+		36FBD08617D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD08417D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld */; };
+		36FBD08F17D9822000AA1D1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD08E17D9822000AA1D1B /* XCTest.framework */; };
+		36FBD09017D9822000AA1D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07017D9821F00AA1D1B /* Foundation.framework */; };
+		36FBD09117D9822000AA1D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07417D9821F00AA1D1B /* UIKit.framework */; };
+		36FBD09217D9822000AA1D1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07617D9821F00AA1D1B /* CoreData.framework */; };
+		36FBD09A17D9822000AA1D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD09817D9822000AA1D1B /* InfoPlist.strings */; };
+		36FBD09C17D9822000AA1D1B /* MyContactList_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */; };
+		36FBD0AA17D982A500AA1D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD0A517D982A500AA1D1B /* Main.storyboard */; };
+		36FBD0AB17D982A500AA1D1B /* LMAContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0A717D982A500AA1D1B /* LMAContactsController.m */; };
+		36FBD0AC17D982A500AA1D1B /* LMASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */; };
+		36FBD0AE17D984E600AA1D1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD0AD17D984E600AA1D1B /* Images.xcassets */; };
+		36FBD0B617D9FF0800AA1D1B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0B517D9FF0800AA1D1B /* Contact.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FBD09317D9822000AA1D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FBD06517D9821F00AA1D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FBD06C17D9821F00AA1D1B;
+			remoteInfo = "MyContactList CoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3671C67017DDF7C2007A316E /* LMASettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASettingsController.h; sourceTree = "<group>"; };
+		3671C67117DDF7C2007A316E /* LMASettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASettingsController.m; sourceTree = "<group>"; };
+		367276C517DF48A300EF9743 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		367276C617DF48A300EF9743 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		36E0221317DADFF20009BE71 /* LMADateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMADateController.h; sourceTree = "<group>"; };
+		36E0221417DADFF20009BE71 /* LMADateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMADateController.m; sourceTree = "<group>"; };
+		36F081BC17E016E5008C3388 /* LMAContactsTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAContactsTableController.h; sourceTree = "<group>"; };
+		36F081BD17E016E5008C3388 /* LMAContactsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAContactsTableController.m; sourceTree = "<group>"; };
+		36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyContactList CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBD07017D9821F00AA1D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36FBD07217D9821F00AA1D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36FBD07417D9821F00AA1D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36FBD07617D9821F00AA1D1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36FBD07A17D9822000AA1D1B /* MyContactList CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreData-Info.plist"; sourceTree = "<group>"; };
+		36FBD07C17D9822000AA1D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36FBD07E17D9822000AA1D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36FBD08017D9822000AA1D1B /* MyContactList CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContactList CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		36FBD08117D9822000AA1D1B /* LMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAAppDelegate.h; sourceTree = "<group>"; };
+		36FBD08217D9822000AA1D1B /* LMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAAppDelegate.m; sourceTree = "<group>"; };
+		36FBD08517D9822000AA1D1B /* MyContactList_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactList_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyContactList CoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBD08E17D9822000AA1D1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36FBD09717D9822000AA1D1B /* MyContactList CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		36FBD09917D9822000AA1D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactList_CoreDataTests.m; sourceTree = "<group>"; };
+		36FBD0A517D982A500AA1D1B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36FBD0A617D982A500AA1D1B /* LMAContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAContactsController.h; sourceTree = "<group>"; };
+		36FBD0A717D982A500AA1D1B /* LMAContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAContactsController.m; sourceTree = "<group>"; };
+		36FBD0A817D982A500AA1D1B /* LMASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASecondViewController.h; sourceTree = "<group>"; };
+		36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASecondViewController.m; sourceTree = "<group>"; };
+		36FBD0AD17D984E600AA1D1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36FBD0B417D9FF0800AA1D1B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		36FBD0B517D9FF0800AA1D1B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FBD06A17D9821F00AA1D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD07317D9821F00AA1D1B /* CoreGraphics.framework in Frameworks */,
+				36FBD07717D9822000AA1D1B /* CoreData.framework in Frameworks */,
+				36FBD07517D9821F00AA1D1B /* UIKit.framework in Frameworks */,
+				36FBD07117D9821F00AA1D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBD08A17D9822000AA1D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD08F17D9822000AA1D1B /* XCTest.framework in Frameworks */,
+				36FBD09217D9822000AA1D1B /* CoreData.framework in Frameworks */,
+				36FBD09117D9822000AA1D1B /* UIKit.framework in Frameworks */,
+				36FBD09017D9822000AA1D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36FBD06417D9821F00AA1D1B = {
+			isa = PBXGroup;
+			children = (
+				36FBD07817D9822000AA1D1B /* MyContactList CoreData */,
+				36FBD09517D9822000AA1D1B /* MyContactList CoreDataTests */,
+				36FBD06F17D9821F00AA1D1B /* Frameworks */,
+				36FBD06E17D9821F00AA1D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36FBD06E17D9821F00AA1D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */,
+				36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FBD06F17D9821F00AA1D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD07017D9821F00AA1D1B /* Foundation.framework */,
+				36FBD07217D9821F00AA1D1B /* CoreGraphics.framework */,
+				36FBD07417D9821F00AA1D1B /* UIKit.framework */,
+				36FBD07617D9821F00AA1D1B /* CoreData.framework */,
+				36FBD08E17D9822000AA1D1B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36FBD07817D9822000AA1D1B /* MyContactList CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD08117D9822000AA1D1B /* LMAAppDelegate.h */,
+				36FBD08217D9822000AA1D1B /* LMAAppDelegate.m */,
+				36FBD0A517D982A500AA1D1B /* Main.storyboard */,
+				36FBD0A617D982A500AA1D1B /* LMAContactsController.h */,
+				36FBD0A717D982A500AA1D1B /* LMAContactsController.m */,
+				36FBD0A817D982A500AA1D1B /* LMASecondViewController.h */,
+				36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */,
+				36FBD0AD17D984E600AA1D1B /* Images.xcassets */,
+				36FBD08417D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld */,
+				36FBD0B417D9FF0800AA1D1B /* Contact.h */,
+				36FBD0B517D9FF0800AA1D1B /* Contact.m */,
+				36FBD07917D9822000AA1D1B /* Supporting Files */,
+				36E0221317DADFF20009BE71 /* LMADateController.h */,
+				36E0221417DADFF20009BE71 /* LMADateController.m */,
+				3671C67017DDF7C2007A316E /* LMASettingsController.h */,
+				3671C67117DDF7C2007A316E /* LMASettingsController.m */,
+				367276C517DF48A300EF9743 /* Constants.h */,
+				367276C617DF48A300EF9743 /* Constants.m */,
+				36F081BC17E016E5008C3388 /* LMAContactsTableController.h */,
+				36F081BD17E016E5008C3388 /* LMAContactsTableController.m */,
+			);
+			path = "MyContactList CoreData";
+			sourceTree = "<group>";
+		};
+		36FBD07917D9822000AA1D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD07A17D9822000AA1D1B /* MyContactList CoreData-Info.plist */,
+				36FBD07B17D9822000AA1D1B /* InfoPlist.strings */,
+				36FBD07E17D9822000AA1D1B /* main.m */,
+				36FBD08017D9822000AA1D1B /* MyContactList CoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36FBD09517D9822000AA1D1B /* MyContactList CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */,
+				36FBD09617D9822000AA1D1B /* Supporting Files */,
+			);
+			path = "MyContactList CoreDataTests";
+			sourceTree = "<group>";
+		};
+		36FBD09617D9822000AA1D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36FBD09717D9822000AA1D1B /* MyContactList CoreDataTests-Info.plist */,
+				36FBD09817D9822000AA1D1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */;
+			buildPhases = (
+				36FBD06917D9821F00AA1D1B /* Sources */,
+				36FBD06A17D9821F00AA1D1B /* Frameworks */,
+				36FBD06B17D9821F00AA1D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyContactList CoreData";
+			productName = "MyContactList CoreData";
+			productReference = 36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36FBD08C17D9822000AA1D1B /* MyContactList CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */;
+			buildPhases = (
+				36FBD08917D9822000AA1D1B /* Sources */,
+				36FBD08A17D9822000AA1D1B /* Frameworks */,
+				36FBD08B17D9822000AA1D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FBD09417D9822000AA1D1B /* PBXTargetDependency */,
+			);
+			name = "MyContactList CoreDataTests";
+			productName = "MyContactList CoreDataTests";
+			productReference = 36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FBD06517D9821F00AA1D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Learning Mobile Apps";
+				TargetAttributes = {
+					36FBD08C17D9822000AA1D1B = {
+						TestTargetID = 36FBD06C17D9821F00AA1D1B;
+					};
+				};
+			};
+			buildConfigurationList = 36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36FBD06417D9821F00AA1D1B;
+			productRefGroup = 36FBD06E17D9821F00AA1D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */,
+				36FBD08C17D9822000AA1D1B /* MyContactList CoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FBD06B17D9821F00AA1D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD0AE17D984E600AA1D1B /* Images.xcassets in Resources */,
+				36FBD0AA17D982A500AA1D1B /* Main.storyboard in Resources */,
+				36FBD07D17D9822000AA1D1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBD08B17D9822000AA1D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD09A17D9822000AA1D1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FBD06917D9821F00AA1D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD07F17D9822000AA1D1B /* main.m in Sources */,
+				3671C67217DDF7C2007A316E /* LMASettingsController.m in Sources */,
+				36E0221517DADFF20009BE71 /* LMADateController.m in Sources */,
+				36FBD08617D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld in Sources */,
+				36F081BE17E016E5008C3388 /* LMAContactsTableController.m in Sources */,
+				36FBD08317D9822000AA1D1B /* LMAAppDelegate.m in Sources */,
+				36FBD0AB17D982A500AA1D1B /* LMAContactsController.m in Sources */,
+				36FBD0B617D9FF0800AA1D1B /* Contact.m in Sources */,
+				36FBD0AC17D982A500AA1D1B /* LMASecondViewController.m in Sources */,
+				367276C717DF48A300EF9743 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBD08917D9822000AA1D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBD09C17D9822000AA1D1B /* MyContactList_CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36FBD09417D9822000AA1D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */;
+			targetProxy = 36FBD09317D9822000AA1D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36FBD07B17D9822000AA1D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FBD07C17D9822000AA1D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36FBD09817D9822000AA1D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FBD09917D9822000AA1D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36FBD09D17D9822000AA1D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36FBD09E17D9822000AA1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FBD0A017D9822000AA1D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36FBD0A117D9822000AA1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36FBD0A317D9822000AA1D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactList CoreData.app/MyContactList CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36FBD0A417D9822000AA1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyContactList CoreData.app/MyContactList CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBD09D17D9822000AA1D1B /* Debug */,
+				36FBD09E17D9822000AA1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBD0A017D9822000AA1D1B /* Debug */,
+				36FBD0A117D9822000AA1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBD0A317D9822000AA1D1B /* Debug */,
+				36FBD0A417D9822000AA1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36FBD08417D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36FBD08517D9822000AA1D1B /* MyContactList_CoreData.xcdatamodel */,
+			);
+			currentVersion = 36FBD08517D9822000AA1D1B /* MyContactList_CoreData.xcdatamodel */;
+			path = MyContactList_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36FBD06517D9821F00AA1D1B /* Project object */;
+}

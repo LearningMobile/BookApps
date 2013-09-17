@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47878DF9-3520-4C33-90C6-46AA7C5D6B35</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyContactList</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D411B6D3-4271-4AF0-BDEA-85CB439B4B74</key>
+		<string>https://github.com/jhiversen/Learning-Mobile-Apps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyContactList Post Ch 14/MyContactList.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D411B6D3-4271-4AF0-BDEA-85CB439B4B74</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jhiversen/Learning-Mobile-Apps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D411B6D3-4271-4AF0-BDEA-85CB439B4B74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D411B6D3-4271-4AF0-BDEA-85CB439B4B74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Learning-Mobile-Apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
