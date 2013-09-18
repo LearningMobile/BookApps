@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<RelativeLayout tools:context=".ContactListActivity" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:background="@color/toolbar_background" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentLeft="true" 
+        android:id="@+id/toolbar">
+        
+        <Button android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_alignParentLeft="true" 
+            android:id="@+id/buttonDelete" 
+            android:text="Delete" 
+            android:layout_marginLeft="20dp"/>
+        
+        <Button android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:id="@+id/buttonAdd" 
+            android:text="Add Contact" 
+            android:layout_marginRight="20dp" 
+            android:layout_alignParentRight="true"/>
+    
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:background="@color/navbar_background" 
+        android:id="@+id/navbar" 
+        android:layout_alignParentBottom="true">
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonList" 
+            android:layout_marginRight="20dp" 
+            android:src="@drawable/contactlisticon" 
+            android:layout_toLeftOf="@+id/imageButtonMap" 
+            android:layout_centerVertical="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonMap" 
+            android:src="@drawable/mapicon" 
+            android:layout_centerVertical="true" 
+            android:layout_centerHorizontal="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonSettings" 
+            android:layout_marginLeft="20dp" 
+            android:src="@drawable/settingsicon" 
+            android:layout_centerVertical="true" 
+            android:layout_toRightOf="@+id/imageButtonMap"/>
+    
+    </RelativeLayout>
+    
+    <ListView android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:layout_alignParentLeft="true" 
+        android:id="@id/android:list" 
+        android:layout_above="@+id/navbar" 
+        android:layout_below="@+id/toolbar"> 
+    </ListView>
+        
+</RelativeLayout>

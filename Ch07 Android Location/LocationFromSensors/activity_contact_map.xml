@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<RelativeLayout tools:context=".ContactMapActivity" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:background="@color/navbar_background" 
+        android:layout_alignParentBottom="true" 
+        android:id="@+id/navbar">
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonList" 
+            android:src="@drawable/contactlisticon"
+            android:layout_toLeftOf="@+id/imageButtonMap" 
+            android:layout_marginRight="20dp" 
+            android:layout_centerVertical="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonMap" 
+            android:src="@drawable/mapicon" 
+            android:layout_centerVertical="true" 
+            android:layout_centerHorizontal="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonSettings" 
+            android:src="@drawable/settingsicon" 
+            android:layout_centerVertical="true" 
+            android:layout_toRightOf="@+id/imageButtonMap" 
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+    
+    <TextView android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/textAddress" 
+        android:layout_marginLeft="10dp" 
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="Address:" 
+        android:layout_marginTop="15dp" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentLeft="true"/>
+    
+    <EditText android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/editAddress" 
+        android:layout_marginLeft="10dp" 
+        android:layout_alignParentLeft="true" 
+        android:inputType="textCapWords" 
+        android:imeOptions="actionNext" 
+        android:ems="14" 
+        android:layout_below="@+id/textAddress"> 
+    </EditText>
+    
+    <EditText android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/editCity" 
+        android:layout_marginLeft="10dp" 
+        android:layout_alignParentLeft="true" 
+        android:inputType="textCapWords" 
+        android:imeOptions="actionNext" 
+        android:ems="8" 
+        android:layout_below="@+id/editAddress" 
+        android:nextFocusDown="@+id/editState"> 
+   </EditText>
+   
+   <EditText android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/editState" 
+       android:layout_toRightOf="@+id/editCity" 
+       android:inputType="textCapCharacters" 
+       android:imeOptions="actionNext" 
+       android:ems="2" 
+       android:nextFocusDown="@+id/editZipcode" 
+       android:maxLength="2" 
+       android:layout_alignBottom="@+id/editCity"> 
+   </EditText>
+   
+   <EditText android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/editZipcode" 
+       android:layout_toRightOf="@+id/editState" 
+       android:inputType="numberSigned" 
+       android:imeOptions="actionNext" 
+       android:ems="4" 
+       android:nextFocusDown="@+id/editHome" 
+       android:maxLength="5" 
+       android:layout_alignBottom="@+id/editState"> 
+   </EditText>
+   
+   <Button android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/buttonGetLocation" 
+       android:layout_marginLeft="10dp" 
+       android:text="Get Coordinates" 
+       android:layout_marginTop="15dp" 
+       android:layout_alignParentLeft="true" 
+       android:layout_below="@+id/editCity"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textView1" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="Latitude:" 
+       android:layout_marginTop="30dp" 
+       android:layout_alignParentLeft="true" 
+       android:layout_below="@+id/buttonGetLocation"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textLatitude" 
+       android:layout_toRightOf="@+id/textView1" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="None" 
+       android:layout_alignBottom="@+id/textView1"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textView2" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="Longitude:" 
+       android:layout_marginTop="10dp" 
+       android:layout_alignParentLeft="true" 
+       android:layout_below="@+id/textView1"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textLongitude" 
+       android:layout_toRightOf="@+id/textView2" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="None" 
+       android:layout_alignBottom="@+id/textView2"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textView3" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="Accuracy:" 
+       android:layout_marginTop="10dp" 
+       android:layout_alignParentLeft="true" 
+       android:layout_below="@+id/textView2"/>
+   
+   <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:id="@+id/textAccuracy" 
+       android:layout_toRightOf="@+id/textView3" 
+       android:layout_marginLeft="10dp" 
+       android:textAppearance="?android:attr/textAppearanceMedium" 
+       android:text="None" 
+       android:layout_alignBottom="@+id/textView3"/>
+
+</RelativeLayout>

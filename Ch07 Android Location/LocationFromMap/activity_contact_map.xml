@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<RelativeLayout tools:context=".ContactMapActivity" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:background="@color/navbar_background" 
+        android:layout_alignParentBottom="true" 
+        android:id="@+id/navbar">
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonList" 
+            android:src="@drawable/contactlisticon"
+            android:layout_toLeftOf="@+id/imageButtonMap" 
+            android:layout_marginRight="20dp" 
+            android:layout_centerVertical="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonMap" 
+            android:src="@drawable/mapicon" 
+            android:layout_centerVertical="true" 
+            android:layout_centerHorizontal="true"/>
+        
+        <ImageButton android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:id="@+id/imageButtonSettings" 
+            android:src="@drawable/settingsicon" 
+            android:layout_centerVertical="true" 
+            android:layout_toRightOf="@+id/imageButtonMap" 
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+    
+     <fragment 
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/navbar"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+</RelativeLayout>

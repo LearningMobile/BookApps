@@ -1,0 +1,290 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity" >
+    
+                <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px" />
+
+    
+
+    <RelativeLayout
+        android:id="@+id/navbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/navbar_background" >
+
+        <ImageButton
+            android:id="@+id/imageButtonList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/imageButtonMap"
+            android:src="@drawable/contactlisticon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mapicon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imageButtonMap"
+            android:src="@drawable/settingsicon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/toolbar_background" >
+
+        <ToggleButton
+            android:id="@+id/toggleButtonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="ToggleButton" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Save" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/navbar" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+            
+
+            <TextView
+                android:id="@+id/textContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Contact:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textContact"
+                android:ems="14"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords" >
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/textAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Address:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textAddress"
+                android:ems="14"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords" >
+
+            </EditText>
+            
+           <EditText
+                android:id="@+id/editCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/editAddress"
+                android:ems="8"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/editState"
+                android:inputType="textCapWords" >
+
+            </EditText>
+            
+           <EditText
+                android:id="@+id/editState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/editCity"
+                android:layout_alignBottom="@+id/editCity"
+                android:ems="2"
+                android:maxLength="2"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/editZipcode"
+                android:inputType="textCapCharacters" >
+
+            </EditText>
+            
+            <EditText
+                android:id="@+id/editZipcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/editState"
+                android:layout_alignBottom="@+id/editState"
+                android:ems="4"
+                android:maxLength="5"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/editHome"
+                android:inputType="numberSigned" >
+
+            </EditText>
+
+           <TextView
+                android:id="@+id/textHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editCity"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Home Phone:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <EditText
+                android:id="@+id/editHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textHome"
+                android:imeOptions="actionNext"
+                android:maxLength="14"
+                android:ems="7"
+                android:nextFocusDown="@+id/editCell"
+                android:inputType="textCapWords" >
+
+            </EditText>
+            
+           <TextView
+                android:id="@+id/textCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textHome"
+                android:layout_alignLeft="@+id/editCell"
+                android:text="Cell Phone:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <EditText
+                android:id="@+id/editCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/editHome"
+                android:layout_alignBottom="@+id/editHome"
+                android:maxLength="14"
+                android:ems="7"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/editEMail"
+                android:inputType="textCapWords" >
+
+            </EditText>
+            
+           <TextView
+                android:id="@+id/textEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editHome"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="E-Mail Address:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <EditText
+                android:id="@+id/editEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textEMail"
+                android:ems="13"
+                android:inputType="textEmailAddress" >
+
+            </EditText>
+            
+           <TextView
+                android:id="@+id/textBday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editEMail"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="25dp"
+                android:text="Birthday:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <TextView
+                android:id="@+id/textBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textBday"
+                android:layout_alignBottom="@+id/textBday"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="25dp"
+                android:text="01/01/1970"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+           <Button
+               android:id="@+id/btnBirthday"
+               style="?android:attr/buttonStyleSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+               android:layout_alignBaseline="@+id/textBirthday"
+               android:text="Change" />
+           
+           
+           
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
