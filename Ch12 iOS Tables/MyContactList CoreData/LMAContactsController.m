@@ -32,6 +32,25 @@ NSDate *birthdate;
                         action:@selector(saveContact:)];
     [self.navigationItem setRightBarButtonItem:saveButton];
     self.title = @"Contact";
+    
+    if(_contact){
+        _txtName.text = _contact.contactName;
+        _txtAddress.text = _contact.streetAddress;
+        _txtCity.text = _contact.city;
+        _txtState.text = _contact.state;
+        _txtZip.text = _contact.zipCode;
+        _txtPhone.text = _contact.phoneNumber;
+        _txtCell.text = _contact.cellNumber;
+        _txtEmail.text = _contact.email;
+        [self dateChanged:_contact.birthday];
+        [_sgmtEditMode setSelectedSegmentIndex:0]; //set to view mode
+        
+    }
+    else{
+        [_sgmtEditMode setSelectedSegmentIndex:1];//edit mode
+    }
+    [self changeEditMode:self];
+
 }
 
 
@@ -96,7 +115,7 @@ NSDate *birthdate;
                         insertNewObjectForEntityForName:@"Contact"
                         inManagedObjectContext:context];
     NSError *error;
-    [contact setValue:_txtAddress.text forKey:@"contactName"];
+    [contact setValue:_txtName.text forKey:@"contactName"];
     [contact setValue:_txtAddress.text forKey:@"streetAddress"];
     [contact setValue:_txtCity.text forKey:@"city"];
     [contact setValue:_txtState.text forKey:@"state"];

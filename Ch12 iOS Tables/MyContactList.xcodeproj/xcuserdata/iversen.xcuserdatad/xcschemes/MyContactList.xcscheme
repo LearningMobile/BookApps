@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36FBD06C17D9821F00AA1D1B"
-               BuildableName = "MyContactList CoreData.app"
-               BlueprintName = "MyContactList CoreData"
-               ReferencedContainer = "container:MyContactList CoreData.xcodeproj">
+               BuildableName = "MyContactList.app"
+               BlueprintName = "MyContactList"
+               ReferencedContainer = "container:MyContactList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36FBD08C17D9822000AA1D1B"
-               BuildableName = "MyContactList CoreDataTests.xctest"
-               BlueprintName = "MyContactList CoreDataTests"
-               ReferencedContainer = "container:MyContactList CoreData.xcodeproj">
+               BuildableName = "MyContactListTests.xctest"
+               BlueprintName = "MyContactListTests"
+               ReferencedContainer = "container:MyContactList.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36FBD06C17D9821F00AA1D1B"
-            BuildableName = "MyContactList CoreData.app"
-            BlueprintName = "MyContactList CoreData"
-            ReferencedContainer = "container:MyContactList CoreData.xcodeproj">
+            BuildableName = "MyContactList.app"
+            BlueprintName = "MyContactList"
+            ReferencedContainer = "container:MyContactList.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36FBD06C17D9821F00AA1D1B"
-            BuildableName = "MyContactList CoreData.app"
-            BlueprintName = "MyContactList CoreData"
-            ReferencedContainer = "container:MyContactList CoreData.xcodeproj">
+            BuildableName = "MyContactList.app"
+            BlueprintName = "MyContactList"
+            ReferencedContainer = "container:MyContactList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36FBD06C17D9821F00AA1D1B"
-            BuildableName = "MyContactList CoreData.app"
-            BlueprintName = "MyContactList CoreData"
-            ReferencedContainer = "container:MyContactList CoreData.xcodeproj">
+            BuildableName = "MyContactList.app"
+            BlueprintName = "MyContactList"
+            ReferencedContainer = "container:MyContactList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

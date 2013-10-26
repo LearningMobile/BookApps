@@ -30,7 +30,7 @@ NSArray *sortOrderItems;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    sortOrderItems = @[@"Name", @"City", @"Birthday"];
+    sortOrderItems = @[@"contactName", @"city", @"birthday"];
     _pckSortField.dataSource = self;
     _pckSortField.delegate = self;
     //set the UI based on values in NSUserDefaults

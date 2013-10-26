@@ -10,6 +10,7 @@
 		3671C67217DDF7C2007A316E /* LMASettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671C67117DDF7C2007A316E /* LMASettingsController.m */; };
 		367276C717DF48A300EF9743 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 367276C617DF48A300EF9743 /* Constants.m */; };
 		36E0221517DADFF20009BE71 /* LMADateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0221417DADFF20009BE71 /* LMADateController.m */; };
+		36E30A4117E335F700513660 /* LMAMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E30A4017E335F700513660 /* LMAMapController.m */; };
 		36FBD07117D9821F00AA1D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07017D9821F00AA1D1B /* Foundation.framework */; };
 		36FBD07317D9821F00AA1D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07217D9821F00AA1D1B /* CoreGraphics.framework */; };
 		36FBD07517D9821F00AA1D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FBD07417D9821F00AA1D1B /* UIKit.framework */; };
@@ -26,9 +27,10 @@
 		36FBD09C17D9822000AA1D1B /* MyContactList_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */; };
 		36FBD0AA17D982A500AA1D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD0A517D982A500AA1D1B /* Main.storyboard */; };
 		36FBD0AB17D982A500AA1D1B /* LMAContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0A717D982A500AA1D1B /* LMAContactsController.m */; };
-		36FBD0AC17D982A500AA1D1B /* LMASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */; };
 		36FBD0AE17D984E600AA1D1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FBD0AD17D984E600AA1D1B /* Images.xcassets */; };
 		36FBD0B617D9FF0800AA1D1B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBD0B517D9FF0800AA1D1B /* Contact.m */; };
+		5843727717E3662200D62E42 /* LMAMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5843727617E3662200D62E42 /* LMAMapPoint.m */; };
+		5843727A17E3702400D62E42 /* LMAContactsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5843727917E3702400D62E42 /* LMAContactsTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,31 +50,35 @@
 		367276C617DF48A300EF9743 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		36E0221317DADFF20009BE71 /* LMADateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMADateController.h; sourceTree = "<group>"; };
 		36E0221417DADFF20009BE71 /* LMADateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMADateController.m; sourceTree = "<group>"; };
-		36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyContactList CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E30A3F17E335F700513660 /* LMAMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAMapController.h; sourceTree = "<group>"; };
+		36E30A4017E335F700513660 /* LMAMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAMapController.m; sourceTree = "<group>"; };
+		36FBD06D17D9821F00AA1D1B /* MyContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FBD07017D9821F00AA1D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36FBD07217D9821F00AA1D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		36FBD07417D9821F00AA1D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36FBD07617D9821F00AA1D1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		36FBD07A17D9822000AA1D1B /* MyContactList CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreData-Info.plist"; sourceTree = "<group>"; };
+		36FBD07A17D9822000AA1D1B /* MyContactList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList-Info.plist"; sourceTree = "<group>"; };
 		36FBD07C17D9822000AA1D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36FBD07E17D9822000AA1D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36FBD08017D9822000AA1D1B /* MyContactList CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContactList CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		36FBD08017D9822000AA1D1B /* MyContactList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContactList-Prefix.pch"; sourceTree = "<group>"; };
 		36FBD08117D9822000AA1D1B /* LMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAAppDelegate.h; sourceTree = "<group>"; };
 		36FBD08217D9822000AA1D1B /* LMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAAppDelegate.m; sourceTree = "<group>"; };
 		36FBD08517D9822000AA1D1B /* MyContactList_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactList_CoreData.xcdatamodel; sourceTree = "<group>"; };
-		36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyContactList CoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBD08D17D9822000AA1D1B /* MyContactListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FBD08E17D9822000AA1D1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		36FBD09717D9822000AA1D1B /* MyContactList CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactList CoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		36FBD09717D9822000AA1D1B /* MyContactListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContactListTests-Info.plist"; sourceTree = "<group>"; };
 		36FBD09917D9822000AA1D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactList_CoreDataTests.m; sourceTree = "<group>"; };
 		36FBD0A517D982A500AA1D1B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		36FBD0A617D982A500AA1D1B /* LMAContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAContactsController.h; sourceTree = "<group>"; };
 		36FBD0A717D982A500AA1D1B /* LMAContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAContactsController.m; sourceTree = "<group>"; };
-		36FBD0A817D982A500AA1D1B /* LMASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASecondViewController.h; sourceTree = "<group>"; };
-		36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASecondViewController.m; sourceTree = "<group>"; };
 		36FBD0AD17D984E600AA1D1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		36FBD0B417D9FF0800AA1D1B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		36FBD0B517D9FF0800AA1D1B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		5843727517E3662200D62E42 /* LMAMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAMapPoint.h; sourceTree = "<group>"; };
+		5843727617E3662200D62E42 /* LMAMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAMapPoint.m; sourceTree = "<group>"; };
+		5843727817E3702400D62E42 /* LMAContactsTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAContactsTableController.h; sourceTree = "<group>"; };
+		5843727917E3702400D62E42 /* LMAContactsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAContactsTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,8 @@
 		36FBD06417D9821F00AA1D1B = {
 			isa = PBXGroup;
 			children = (
-				36FBD07817D9822000AA1D1B /* MyContactList CoreData */,
-				36FBD09517D9822000AA1D1B /* MyContactList CoreDataTests */,
+				36FBD07817D9822000AA1D1B /* MyContactList */,
+				36FBD09517D9822000AA1D1B /* MyContactListTests */,
 				36FBD06F17D9821F00AA1D1B /* Frameworks */,
 				36FBD06E17D9821F00AA1D1B /* Products */,
 			);
@@ -114,8 +120,8 @@
 		36FBD06E17D9821F00AA1D1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */,
-				36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */,
+				36FBD06D17D9821F00AA1D1B /* MyContactList.app */,
+				36FBD08D17D9822000AA1D1B /* MyContactListTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +138,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		36FBD07817D9822000AA1D1B /* MyContactList CoreData */ = {
+		36FBD07817D9822000AA1D1B /* MyContactList */ = {
 			isa = PBXGroup;
 			children = (
 				36FBD08117D9822000AA1D1B /* LMAAppDelegate.h */,
@@ -140,8 +146,6 @@
 				36FBD0A517D982A500AA1D1B /* Main.storyboard */,
 				36FBD0A617D982A500AA1D1B /* LMAContactsController.h */,
 				36FBD0A717D982A500AA1D1B /* LMAContactsController.m */,
-				36FBD0A817D982A500AA1D1B /* LMASecondViewController.h */,
-				36FBD0A917D982A500AA1D1B /* LMASecondViewController.m */,
 				36FBD0AD17D984E600AA1D1B /* Images.xcassets */,
 				36FBD08417D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld */,
 				36FBD0B417D9FF0800AA1D1B /* Contact.h */,
@@ -153,34 +157,42 @@
 				3671C67117DDF7C2007A316E /* LMASettingsController.m */,
 				367276C517DF48A300EF9743 /* Constants.h */,
 				367276C617DF48A300EF9743 /* Constants.m */,
+				5843727817E3702400D62E42 /* LMAContactsTableController.h */,
+				5843727917E3702400D62E42 /* LMAContactsTableController.m */,
+				36E30A3F17E335F700513660 /* LMAMapController.h */,
+				36E30A4017E335F700513660 /* LMAMapController.m */,
+				5843727517E3662200D62E42 /* LMAMapPoint.h */,
+				5843727617E3662200D62E42 /* LMAMapPoint.m */,
 			);
+			name = MyContactList;
 			path = "MyContactList CoreData";
 			sourceTree = "<group>";
 		};
 		36FBD07917D9822000AA1D1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				36FBD07A17D9822000AA1D1B /* MyContactList CoreData-Info.plist */,
+				36FBD07A17D9822000AA1D1B /* MyContactList-Info.plist */,
 				36FBD07B17D9822000AA1D1B /* InfoPlist.strings */,
 				36FBD07E17D9822000AA1D1B /* main.m */,
-				36FBD08017D9822000AA1D1B /* MyContactList CoreData-Prefix.pch */,
+				36FBD08017D9822000AA1D1B /* MyContactList-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		36FBD09517D9822000AA1D1B /* MyContactList CoreDataTests */ = {
+		36FBD09517D9822000AA1D1B /* MyContactListTests */ = {
 			isa = PBXGroup;
 			children = (
 				36FBD09B17D9822000AA1D1B /* MyContactList_CoreDataTests.m */,
 				36FBD09617D9822000AA1D1B /* Supporting Files */,
 			);
+			name = MyContactListTests;
 			path = "MyContactList CoreDataTests";
 			sourceTree = "<group>";
 		};
 		36FBD09617D9822000AA1D1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				36FBD09717D9822000AA1D1B /* MyContactList CoreDataTests-Info.plist */,
+				36FBD09717D9822000AA1D1B /* MyContactListTests-Info.plist */,
 				36FBD09817D9822000AA1D1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -189,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */ = {
+		36FBD06C17D9821F00AA1D1B /* MyContactList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */;
+			buildConfigurationList = 36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList" */;
 			buildPhases = (
 				36FBD06917D9821F00AA1D1B /* Sources */,
 				36FBD06A17D9821F00AA1D1B /* Frameworks */,
@@ -201,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = "MyContactList CoreData";
+			name = MyContactList;
 			productName = "MyContactList CoreData";
-			productReference = 36FBD06D17D9821F00AA1D1B /* MyContactList CoreData.app */;
+			productReference = 36FBD06D17D9821F00AA1D1B /* MyContactList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36FBD08C17D9822000AA1D1B /* MyContactList CoreDataTests */ = {
+		36FBD08C17D9822000AA1D1B /* MyContactListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */;
+			buildConfigurationList = 36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactListTests" */;
 			buildPhases = (
 				36FBD08917D9822000AA1D1B /* Sources */,
 				36FBD08A17D9822000AA1D1B /* Frameworks */,
@@ -219,9 +231,9 @@
 			dependencies = (
 				36FBD09417D9822000AA1D1B /* PBXTargetDependency */,
 			);
-			name = "MyContactList CoreDataTests";
+			name = MyContactListTests;
 			productName = "MyContactList CoreDataTests";
-			productReference = 36FBD08D17D9822000AA1D1B /* MyContactList CoreDataTests.xctest */;
+			productReference = 36FBD08D17D9822000AA1D1B /* MyContactListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList CoreData" */;
+			buildConfigurationList = 36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,8 +263,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */,
-				36FBD08C17D9822000AA1D1B /* MyContactList CoreDataTests */,
+				36FBD06C17D9821F00AA1D1B /* MyContactList */,
+				36FBD08C17D9822000AA1D1B /* MyContactListTests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,10 +299,12 @@
 				3671C67217DDF7C2007A316E /* LMASettingsController.m in Sources */,
 				36E0221517DADFF20009BE71 /* LMADateController.m in Sources */,
 				36FBD08617D9822000AA1D1B /* MyContactList_CoreData.xcdatamodeld in Sources */,
+				5843727A17E3702400D62E42 /* LMAContactsTableController.m in Sources */,
 				36FBD08317D9822000AA1D1B /* LMAAppDelegate.m in Sources */,
 				36FBD0AB17D982A500AA1D1B /* LMAContactsController.m in Sources */,
 				36FBD0B617D9FF0800AA1D1B /* Contact.m in Sources */,
-				36FBD0AC17D982A500AA1D1B /* LMASecondViewController.m in Sources */,
+				36E30A4117E335F700513660 /* LMAMapController.m in Sources */,
+				5843727717E3662200D62E42 /* LMAMapPoint.m in Sources */,
 				367276C717DF48A300EF9743 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +322,7 @@
 /* Begin PBXTargetDependency section */
 		36FBD09417D9822000AA1D1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36FBD06C17D9821F00AA1D1B /* MyContactList CoreData */;
+			target = 36FBD06C17D9821F00AA1D1B /* MyContactList */;
 			targetProxy = 36FBD09317D9822000AA1D1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,9 +421,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
-				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList-Info.plist";
+				PRODUCT_NAME = MyContactList;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -420,9 +434,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
-				INFOPLIST_FILE = "MyContactList CoreData/MyContactList CoreData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList-Prefix.pch";
+				INFOPLIST_FILE = "MyContactList CoreData/MyContactList-Info.plist";
+				PRODUCT_NAME = MyContactList;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,8 +456,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactListTests-Info.plist";
+				PRODUCT_NAME = MyContactListTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,8 +474,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyContactList CoreData/MyContactList CoreData-Prefix.pch";
-				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactList CoreDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MyContactList CoreDataTests/MyContactListTests-Info.plist";
+				PRODUCT_NAME = MyContactListTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -470,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList CoreData" */ = {
+		36FBD06817D9821F00AA1D1B /* Build configuration list for PBXProject "MyContactList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36FBD09D17D9822000AA1D1B /* Debug */,
@@ -479,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreData" */ = {
+		36FBD09F17D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36FBD0A017D9822000AA1D1B /* Debug */,
@@ -488,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactList CoreDataTests" */ = {
+		36FBD0A217D9822000AA1D1B /* Build configuration list for PBXNativeTarget "MyContactListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36FBD0A317D9822000AA1D1B /* Debug */,

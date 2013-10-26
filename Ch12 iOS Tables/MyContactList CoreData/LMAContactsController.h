@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Contact.h"
 
 @interface LMAContactsController : UIViewController
+
+@property (strong, nonatomic) Contact *contact;
+
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 - (IBAction)backgroundTap:(id)sender;
 - (IBAction)changeEditMode:(id)sender;

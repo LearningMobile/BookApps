@@ -22,7 +22,7 @@
     NSUserDefaults *settings = [NSUserDefaults standardUserDefaults];
     //2
     if([settings objectForKey:kSortField] == nil) {
-        [settings setObject:@"City" forKey:kSortField];
+        [settings setObject:@"city" forKey:kSortField];
     }
     if([settings objectForKey:kSortDirectionAscending] == nil){
         [settings setBool:YES forKey:kSortDirectionAscending];
