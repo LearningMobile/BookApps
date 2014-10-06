@@ -1,5 +1,6 @@
 Errata for Learning Mobile Apps
 
+Page 33. Figure 3.1The figure shows to use SDK version 17. You can use 19. Because the minimum is 8 this will not impact the development of the app.
 Page 40. Paragraph below Figure 3.4.
 The sentence beginning with “Press the Device Definitions tab …” should read “Press the Android Virtual Devices tab …”
 
@@ -20,3 +21,5 @@ The TextView property textColor should be android:textColor=”@color/system_blu
 
 Page 128. Last paragraph before “Add Delete Functionality”
 The last sentence should read: "If you have properly coded these objects, your ContactListActivity in the emulator should look similar to Figure 6.4 without the Delete and Add Contact buttons.  You’ll implement that in the next sections."
+
+Last updated: 10/6/14 13:27
