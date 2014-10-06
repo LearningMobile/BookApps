@@ -1,0 +1,22 @@
+Errata for Learning Mobile Apps
+
+Page 40. Paragraph below Figure 3.4.
+The sentence beginning with “Press the Device Definitions tab …” should read “Press the Android Virtual Devices tab …”
+
+Page 102. Listing 5.6.  
+The last line should read setForEditing(false);  NOT setForViewing();
+
+Page 110. Item Number 3.
+The last line of code should read settings.setEnabled(false); NOT list.setEnabled(false);
+
+Page 114. Listing 5.11.
+There should be no period before MODE_PRIVATE.
+
+Page 123. Item Number 4 in Create the Layout.
+The sentence should read “…drag one large TextView, …” rather than “…drag two large TextViews, …”
+
+Page 123. Listing 6.6.
+The TextView property textColor should be android:textColor=”@color/system_blue” rather than android:textColor=”@color/system_red”
+
+Page 128. Last paragraph before “Add Delete Functionality”
+The last sentence should read: "If you have properly coded these objects, your ContactListActivity in the emulator should look similar to Figure 6.4 without the Delete and Add Contact buttons.  You’ll implement that in the next sections."
